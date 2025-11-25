@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  let arr: Any = [];
+  let arr: any[] = [];
 
   async function fetchTable() {
     let call = await fetch("http://localhost:3000/elements");
@@ -17,13 +17,9 @@
   });
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>
-  Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the
-  documentation
-</p>
-{#each arr as element, i}
+{#each arr as element}
   <p>
-    {element.number} - {element.name} group:{element.group} period:{element.period}
+    {element.number} - {element.symbol} group: {element.group} period:
+    {element.period}
   </p>
 {/each}
