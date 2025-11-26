@@ -1,3 +1,7 @@
 # KD Eindproject K1315
 
-Om dit project werkent te krijgen hoef je aleen `npm run start` in de terminal te runnen
+`npm install` om alle dependencies te downloaden.
+
+`npm run start` om het te starten.
+
+Open [http://localhost:5173/](http://localhost:5173/) om het te bekijken.
