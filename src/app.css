@@ -1,5 +1,46 @@
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @theme {
+  --color-diatomic: #3e6418;
+  --color-noble-ga: #3a2151;
+  --color-alkali-m: #6c3b04;
+  --color-alkaline: #846011;
+  --color-metalloi: #015146;
+  --color-polyatom: #3e6418;
+  --color-post-tra: #003666;
+  --color-transiti: #711019;
+  --color-lanthani: #402c17;
+  --color-actinide: #732e4c;
+  --color-unknown: #222222;
   --font-raleway: raleway;
+}
+.diatomic-nonmetal {
+  background-color: #3e6418;
+}
+.noble-gas {
+  background-color: #3a2151;
+}
+.alkali-metal {
+  background-color: #6c3b01;
+}
+.alkaline-earth-metal {
+  background-color: #846011;
+}
+.metalloid {
+  background-color: #015146;
+}
+.polyatomic-nonmetal {
+  background-color: #3e6418;
+}
+.post-transition-metal {
+  background-color: #003666;
+}
+.transition-metal {
+  background-color: #711019;
+}
+.lanthanide {
+  background-color: #402c17;
+}
+.actinide {
+  background-color: #732e4c;
 }
