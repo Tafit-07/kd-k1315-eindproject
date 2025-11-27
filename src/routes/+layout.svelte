@@ -9,6 +9,6 @@
   <link rel="icon" href={favicon} />
 </svelte:head>
 
-<div class="text-white font-raleway">
+<div class="text-white font-raleway bg-back">
   {@render children()}
 </div>

@@ -1,16 +1,27 @@
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @theme {
-  --color-diatomic-nonmetal: #3e6418;
-  --color-noble-gas: #3a2151;
-  --color-alkali-metal: #6c3b04;
-  --color-alkaline-earth-metal: #846011;
-  --color-metalloid: #015146;
-  --color-polyatomic-nonmetal: #3e6418;
-  --color-post-transition-metal: #003666;
-  --color-transition-metal: #711019;
-  --color-lanthanide: #402c17;
-  --color-actinide: #732e4c;
-  --color-unknown: #222222;
+  --color-diatomic-nonmetal: #9ece6a;
+  --color-noble-gas: #bb9af7;
+  --color-alkali-metal: #ff9e64;
+  --color-alkaline-earth-metal: #e0af68;
+  --color-metalloid: #73daca;
+  --color-polyatomic-nonmetal: #9ece6a;
+  --color-post-transition-metal: #2ac3de;
+  --color-transition-metal: #f7768e;
+  --color-lanthanide: #7aa2f7;
+  --color-actinide: #7dcfff;
+  --color-unknown-probably-transition-metal: #c7364e;
+  --color-unknown-probably-post-transition-metal: #0a938e;
+  --color-unknown-probably-metalloid: #438a9a;
+  --color-unknown-predicted-to-be-noble-gas: #8b6ac7;
+  --color-light: #fff;
+  --color-dark-back: #1a1b26;
+  --color-back: #24283b;
   --font-raleway: raleway;
+}
+.test {
+  background-color: #f7768e #ff9e64 #e0af68 #cfc9c2 #9ece6a #73daca #b4f9f8
+    #2ac3de #7dcfff #7aa2f7 #bb9af7 #c0caf5 #a9b1d6 #9aa5ce #565f89 #414868
+    #24283b #1a1b26;
 }
