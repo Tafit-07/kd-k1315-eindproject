@@ -93,7 +93,7 @@
         <div class="w-full aspect-square">
           <div class="pl-3">
             <button
-              class="border-2 relative px-1 border-light/20 border-b-0 bg-back rounded-t-xl active:translate-y-[4px] hover:text-shadow-md text-shadow-light transition ease-in-out {imgB}"
+              class="border-2 relative px-1 border-light/20 border-b-0 bg-back rounded-t-xl active:translate-y-[4px] hover:translate-y-[2px] transition ease-in-out {imgB}"
               on:click={() => {
                 tabs = false;
                 imgB = "translate-y-[2px] z-10";
@@ -108,7 +108,7 @@
               }}>Imgage</button
             >
             <button
-              class="border-2 relative px-1 border-light/20 border-b-0 bg-back rounded-t-xl active:translate-y-[4px] hover:text-shadow-md text-shadow-light transition ease-in-out {modB}"
+              class="border-2 relative px-1 border-light/20 border-b-0 bg-back rounded-t-xl active:translate-y-[4px] hover:translate-y-[2px] transition ease-in-out {modB}"
               on:click={() => {
                 imgB = "";
                 modB = "translate-y-[2px] z-10";
