@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [tailwindcss(), sveltekit()],
   server: {
     fs: {
-      allow: ["/static/periodicTableJSON.json", "./static/assets"],
+      allow: ["./static/assets"],
     },
   },
 });
