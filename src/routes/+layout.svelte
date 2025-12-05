@@ -8,6 +8,10 @@
 <svelte:head>
   <link rel="icon" href={"./../../static/assets/img/icon.svg"} />
   <title>Periodic Table</title>
+  <script
+    type="module"
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+  ></script>
 </svelte:head>
 
 <div class="text-white font-raleway bg-back">

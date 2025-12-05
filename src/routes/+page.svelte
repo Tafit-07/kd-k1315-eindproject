@@ -74,8 +74,10 @@
 
 {#if hide == true}
   <div class="h-dvh w-dvw flex flex-col justify-center items-center">
-    <h2 class="text-3xl text-transition-metal font-bold">Screen to small</h2>
-    <p>This page needs to be at least 1600px wide and 850px heigh ;(</p>
+    <h2 class="text-3xl text-transition-metal font-bold">
+      Viewport to small :(
+    </h2>
+    <p>This page needs to be at least 1600px wide and 850px heigh</p>
   </div>
 {:else}
   <audio src="./../../static/assets/sound/whoosh.mp3" bind:this={whoosh}
@@ -158,6 +160,9 @@
             href={selectedElement.source}
             on:click={() => {
               whoosh.play();
+            }}
+            on:mouseenter={() => {
+              hover.play();
             }}>{selectedElement.name} <i class="nf nf-fa-link"></i></a
           >
           <p class="py-1">{selectedElement.category}</p>
