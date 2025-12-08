@@ -157,6 +157,7 @@
         <div class="pt-2">
           <a
             class="py-1 text-2xl font-bold w-fit hover:text-blue-700 text-blue-500 visited:text-purple-500 visited:hover:text-purple-700"
+            target="_blank"
             href={selectedElement.source}
             on:click={() => {
               whoosh.play();
