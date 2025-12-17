@@ -1,6 +1,7 @@
 @import "https://www.nerdfonts.com/assets/css/webfont.css";
-@import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
 @theme {
   --color-diatomic-nonmetal: #9ece6a;
   --color-noble-gas: #bb9af7;
