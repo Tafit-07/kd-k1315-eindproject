@@ -80,11 +80,10 @@
     <p>This page needs to be at least 1600px wide and 850px heigh</p>
   </div>
 {:else}
-  <audio src="./../../static/assets/sound/whoosh.mp3" bind:this={whoosh}
-  ></audio>
-  <audio src="./../../static/assets/sound/down.mp3" bind:this={down}></audio>
-  <audio src="./../../static/assets/sound/up.mp3" bind:this={up}></audio>
-  <audio src="./../../static/assets/sound/click.wav" bind:this={hover}></audio>
+  <audio src="assets/sound/whoosh.mp3" bind:this={whoosh}></audio>
+  <audio src="assets/sound/down.mp3" bind:this={down}></audio>
+  <audio src="assets/sound/up.mp3" bind:this={up}></audio>
+  <audio src="assets/sound/click.wav" bind:this={hover}></audio>
 
   <div class="grid grid-cols-12 h-dvh items-center">
     <div
